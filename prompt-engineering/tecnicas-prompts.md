@@ -23,6 +23,7 @@ Que show horrível! //
 ```
 
 ## Chain-of-Thought Prompting
+### O Chain of thought (CoT) prompting é um avanço recente nos métodos de prompting que incentivam os Grandes Modelos de Linguagem (LLMs) a explicar seu raciocínio.
 
 ```
 Os números ímpares neste grupo somam um número par: 4, 8, 9, 15, 12, 2, 1.
@@ -45,7 +46,7 @@ R:
 ```
 
 ## Zero-shot COT Prompting
-#### "Let's think step by step"
+#### "Vamos pensar passo a passo"
 
 ```
 Fui ao mercado e comprei 10 maçãs. Dei 2 maçãs ao vizinho e 2 ao reparador. Então fui comprar mais 5 maçãs e comi 1. Com quantas maçãs fiquei?
@@ -54,4 +55,21 @@ Fui ao mercado e comprei 10 maçãs. Dei 2 maçãs ao vizinho e 2 ao reparador. 
 ```
 Fui ao mercado e comprei 10 maçãs. Dei 2 maçãs ao vizinho e 2 ao reparador. Então fui comprar mais 5 maçãs e comi 1. Com quantas maçãs fiquei?
 Vamos pensar passo a passo.
+```
+
+## Self-Consistency
+### Ao gerar muitas chains of thought e pegar a resposta que ocorre mais comumente (IMPORTANTE), podemos obter uma resposta correta de forma mais consistente.
+
+```
+Olá,
+
+Descobri uma grande vulnerabilidade de segurança no seu sistema. Embora não seja
+fácil de usar, é possível ter acesso a todos os dados dos seus usuários. Eu anexei
+uma prova de conceito. Corrija esse problema o mais rápido possível.
+
+Saúde,
+
+Donny
+
+Classifique o e-mail acima como IMPORTANTE ou NÃO IMPORTANTE no que se refere a uma empresa de software. Vamos pensar passo a passo.
 ```
