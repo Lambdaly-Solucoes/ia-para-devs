@@ -5,16 +5,21 @@ Requisito básico: Conhecer Python ou Javascript.
     - OpenAI (GPT-4)
     - Hugging Face (Open-source Models)
     - Mistral AI (Mixtral-8x7B)
+    - Groq (Open-source Models)
 ### Prompt Engineering
     - Basic Prompting
     - LLM Settings
-    - Pitfall of LLMs
     - Zero-Shot Prompting
     - Few-Shot Prompting
     - Chain-of-Thought Prompting
-    - Retrieval Augmented Generation (RAG)
+    - Self-Consistency
     - ReAct Prompting
-    - Estruturando Dados (JSON format)
+    - Reflexion
+    - Function Calling
+    - Retrieval Augmented Generation (RAG)
+    - Vector Databases
+    - Embeddings
+    - Pitfall of LLMs
 ### LangChain: LLM Orchestrator
     - LangChain Biblioteca e Ecosistema
     - LCEL
